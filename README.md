@@ -3,6 +3,7 @@
 **applicationTest.jsp**和**applicationGet.jsp**同理 (詳情請了解JSP四大作用域以便更深理解)
 
 然後是透過Session實作登入系統，並且利用Session判斷是否得到Session而有沒有進入Friend_List.jsp內
+後來有把Session的GET和SET邏輯包裝成函示寫到Util_IO.jsp裡面(因為所有通訊錄頁面都要添加，這樣就不能直接輸入網址就進去)
 
 資料庫需要確認有以下表格
 ```sql
